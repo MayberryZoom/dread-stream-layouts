@@ -1,0 +1,48 @@
+{
+  "name": "dread-stream-layouts",
+  "version": "1.0.0",
+  "description": "Metroid Dread stream layouts",
+  "author": "Mayberry",
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "^1.9.0",
+    "bundleDependencies": {
+      "nodecg-speedcontrol": "^2.5.0"
+    },
+    "graphics": [
+      {
+        "file": "vanilla-2-racers.html",
+        "width": 1920,
+        "height": 1080,
+        "singleInstance": false
+      },
+      {
+        "file": "rando-2-racers.html",
+        "width": 1920,
+        "height": 1080,
+        "singleInstance": false
+      }
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "license": "AGPL-3.0"
+}

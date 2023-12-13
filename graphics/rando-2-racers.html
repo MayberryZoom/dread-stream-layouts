@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link href="css/common.css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="runners-container">
+				<div class="runner">
+					<div class="gameplay"></div>
+					<div class="runner-bottom" id="runner-left">
+                        <div class="tracker-container">
+                            <div class="tracker"></div>
+                        </div>
+						<div class="runner-info-container flipped">
+							<div class="runner-info">
+								<span class="runner-name">Runner 1</span>
+								<span class="runner-pronouns">they/them</span>
+                                <span class="runner-time">0:00:00 #1</span>
+							</div>
+							<div class="runner-info-edge"></div>
+						</div>
+					</div>
+				</div>
+				<div class="runner">
+					<div class="gameplay flipped"></div>
+					<div class="runner-bottom" id="runner-right">
+						<div class="runner-info-container">
+							<div class="runner-info flipped">
+								<span class="runner-name">Runner 2</span>
+								<span class="runner-pronouns">they/them</span>
+                                <span class="runner-time flipped">0:00:00 #2</span>
+							</div>
+							<div class="runner-info-edge flipped"></div>
+						</div>
+                        <div class="tracker-container">
+                            <div class="tracker"></div>
+                        </div>
+					</div>
+				</div>
+				<img src="img/md.png" class="logo"/>
+			</div>
+			<div class="bottom-container">
+				<div class="category-and-timer">
+					<span id="timer">0:00:00</span>
+					<div class="category-container">
+						<span id="category">Category</span>
+					</div>
+				</div>
+				<div class="commentary-container">
+					<div class="commentary-info">
+						<span class="commentary-header">Commentary By:</span>
+						<span class="commentator" id="commentator-top">Commentator 1</span>
+						<span class="commentator" id="commentator-bottom">Commentator 2</span>
+					</div>
+				</div>
+			</div>
+		</div>
+        <script src="js/speedcontrol-link.js"></script>
+		<script src="js/style.js"></script>
+	</body>
+</html>

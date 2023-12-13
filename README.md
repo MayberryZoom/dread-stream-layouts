@@ -1,3 +1,3 @@
 # dread-restream-layouts
 
-too many hours
+This bundle contains all code and assets used for the Metroid Dread community Twitch channel's stream layouts.
