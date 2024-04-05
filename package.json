@@ -29,6 +29,20 @@
         "width": 1920,
         "height": 1080,
         "singleInstance": false
+      },
+      {
+        "file": "rando-2-racers-transports.html",
+        "width": 1920,
+        "height": 1080,
+        "singleInstance": false
+      }
+    ],
+    "dashboardPanels": [
+      {
+        "name": "transportConnections",
+        "title": "Randomizer Transport Connections",
+        "file": "transport-connections.html",
+        "width": 3
       }
     ]
   },
