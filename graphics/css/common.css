@@ -175,9 +175,9 @@ span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-grow: 1;
     gap: 10%;
     height: 100%;
-    width: 50vw;
 }
 
 .category-container {
@@ -200,7 +200,7 @@ span {
 .commentary-container {
     display: flex;
     justify-content: center;
-    width: 50vw;
+    flex-grow: 1;
 }
 
 .commentary-info {
