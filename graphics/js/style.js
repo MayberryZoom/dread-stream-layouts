@@ -25,7 +25,7 @@ for (const element of document.getElementsByClassName('commentator')) {
 }
 
 // Resize category name
-for (const element of document.getElementsByClassName('category')) {
+for (const element of document.querySelectorAll('#category')) {
     let fontSize = parseInt(getComputedStyle(element).getPropertyValue('font-size'));
     const parentStyles = getComputedStyle(element.parentElement);
 

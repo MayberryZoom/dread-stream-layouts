@@ -36,6 +36,17 @@ const formatCommentators = () => {
     }
 }
 
+const formatCategory = () => {
+    let fontSize = parseInt(getComputedStyle(categoryElement).getPropertyValue('font-size'));
+    const parentStyles = getComputedStyle(categoryElement.parentElement);
+
+    const containerWidth = categoryElement.parentElement.clientWidth
+        - parseInt(parentStyles.getPropertyValue('padding-left'))
+        - parseInt(parentStyles.getPropertyValue('padding-right'));
+
+    while (categoryElement.offsetWidth > containerWidth) categoryElement.style.fontSize = --fontSize + 'px';
+}
+
 runReplicant.on('change', (newValue) => {
     if (newValue) {
         categoryElement.textContent = newValue.category;
@@ -47,6 +58,7 @@ runReplicant.on('change', (newValue) => {
         formatRunnerNames();
         formatTimers();
         formatCommentators();
+        formatCategory();
     };
 });
 
