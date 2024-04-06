@@ -16,7 +16,6 @@ for (const element of document.getElementsByClassName('runner-time')) {
 for (const element of document.getElementsByClassName('commentator')) {
     let fontSize = parseInt(getComputedStyle(element).getPropertyValue('font-size'));
     const parentStyles = getComputedStyle(element.parentElement);
-    console.log(parentStyles.getPropertyValue('padding-left'), parentStyles.getPropertyValue('padding-right'))
 
     const containerWidth = element.parentElement.clientWidth
         - parseInt(parentStyles.getPropertyValue('padding-left'))
@@ -29,7 +28,6 @@ for (const element of document.getElementsByClassName('commentator')) {
 for (const element of document.getElementsByClassName('category')) {
     let fontSize = parseInt(getComputedStyle(element).getPropertyValue('font-size'));
     const parentStyles = getComputedStyle(element.parentElement);
-    console.log(parentStyles.getPropertyValue('padding-left'), parentStyles.getPropertyValue('padding-right'))
 
     const containerWidth = element.parentElement.clientWidth
         - parseInt(parentStyles.getPropertyValue('padding-left'))
