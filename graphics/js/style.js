@@ -1,6 +1,3 @@
-// Put pronouns in parentheses
-for (const element of document.getElementsByClassName('runner-pronouns')) element.textContent = "(" + element.textContent + ")";
-
 // Resize runner names
 for (const element of document.getElementsByClassName('runner-name')) {
     let fontSize = parseInt(getComputedStyle(element).getPropertyValue('font-size'));
